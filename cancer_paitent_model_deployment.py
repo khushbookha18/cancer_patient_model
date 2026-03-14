@@ -12,7 +12,7 @@ import numpy as np
 import pickle
 
 # Load trained model
-model = pickle.load(open("cancer_model.pkl","rb"))
+model = joblib.load("cancer_patient_acc_lr_model.pkl")
 
 st.title("Cancer Risk Prediction System")
 
