@@ -12,7 +12,6 @@ st.write("Enter patient details")
 # Inputs
 age = st.number_input("Age", 1, 100, 30)
 gender = st.selectbox("Gender", [1, 2])
-
 air_pollution = st.slider("Air Pollution", 1, 8, 3)
 alcohol_use = st.slider("Alcohol Use", 1, 8, 3)
 dust_allergy = st.slider("Dust Allergy", 1, 8, 3)
